@@ -17,7 +17,7 @@ const
     nocache = require('nocache'),
     hpp = require('hpp'),
     bParser = require('body-parser'),
-    mongoose = require('mongoose');
+    mongoose = require('mongoose'),
 
 mongoose.Promise = require('bluebird');
 

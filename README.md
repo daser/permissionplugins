@@ -3,7 +3,7 @@
 PROJECTGOAL: Integration of PERMISSIONS plugin. Review and enhance existing PERMISSIONS plugin to support authorization of the various categories of ‘users’ in the VSsystem.
 
 
-As much as the origin existing system is built based on structureless schema, i try as possible to enforce schema structures for both RoleUser and RolePermission collections which are required for the permission plugin. The purpose of this modification is so that validations are properly enforced on requests and also to avoid instances of data duplications which might be the case with structureless data.
+As much as the original existing system is built based on structureless schema, i try as possible to enforce schema structures for both RoleUser and RolePermission collections which are required for the permission plugin. The purpose of this modification is so that validations are properly enforced on requests and also to avoid instances of data duplications which might be the case with structureless data.
 
 
 To start this service: NODE_ENV=development node server.js

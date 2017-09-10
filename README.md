@@ -38,8 +38,8 @@ Method: POST <br />
 }
 ```
 
-Route: api/addPermission. 
-Method: POST. 
+Route: api/addPermission <br />
+Method: POST <br /> 
 
 4. Permissions can also be removed from roles if there is a need for that using the deletePermission method. See request structure below
 ```
@@ -61,8 +61,8 @@ Method: DELETE.
 }
 ```
 
-Route: api/deleteRolePerm. 
-Method: DELETE. 
+Route: api/deleteRolePerm <br />
+Method: DELETE <br /> 
 
 6. The method getAllRolesPerm returns all the permissions in a role. See the structure below
 ```
@@ -72,13 +72,13 @@ Method: DELETE.
 ```
 
 
-Route: api/getAllRolesPerm.    
-Method: POST. 
+Route: api/getAllRolesPerm <br />    
+Method: POST <br /> 
 
 7. The method getAllRoles will return all the roles available in the system.
 
-Route: api/getAllRoles. 
-Method: GET. 
+Route: api/getAllRoles <br /> 
+Method: GET <br /> 
 
 8. To change the role of a user, the method updateUserRole is just for that. See the structure below 
 
@@ -94,8 +94,8 @@ Method: GET.
 ```
 
 
-Route: api/updateUserRole. 
-Method: PUT. 
+Route: api/updateUserRole <br /> 
+Method: PUT <br /> 
 
 
 9. To change a role name, the method updateRolePerm is for that.
@@ -112,8 +112,8 @@ Method: PUT.
 ```
 
 
-Route: api/updateRolePerm. 
-Method: PUT. 
+Route: api/updateRolePerm <br /> 
+Method: PUT <br /> 
 
 10. If you are interested in viewing a user's role and permissions using just the user id, the method getUserPermissions is for such.
 
@@ -124,8 +124,8 @@ Method: PUT.
 ```
 
 
-Route: api/getUserPermissions. 
-Method: POST. 
+Route: api/getUserPermissions <br /> 
+Method: POST <br /> 
 
 11. The method isAllowed is used to check if a user is allowed to access a resource given a permission. It returns boolean.
 ```
@@ -136,8 +136,8 @@ Method: POST.
 }
 ```
 
-Route: api/isAllowed. 
-Method: POST. 
+Route: api/isAllowed <br /> 
+Method: POST <br /> 
 
 
 12. If you intend to create a role with a permission at the same time instead of creating a role and then add permission to it later, the method createRolePerm can be used.
@@ -149,8 +149,8 @@ Method: POST.
 }
 ```
 
-Route: api/createRolePerm. 
-Method: POST. 
+Route: api/createRolePerm <br /> 
+Method: POST <br /> 
 
 
 

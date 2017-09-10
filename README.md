@@ -16,8 +16,8 @@ To start this service: NODE_ENV=development node server.js
 }
 ```
 
-**Route: api/createRoleUser**
-**Method: POST**
+**Route: api/createRoleUser**. 
+**Method: POST**. 
 
 2. Roles are created using the createRole method. Once this is created permissions can be assigned to these roles using another method. See request Structure below:
 
@@ -26,8 +26,8 @@ To start this service: NODE_ENV=development node server.js
         "role" : "admin"
 }
 ```
-Route: api/createRole
-Method: POST
+**Route: api/createRole.** 
+**Method: POST.** 
 
 3. Once roles are created, permissions can be assigned to these roles using the addPermission method. See request structure below 
 ```
@@ -38,8 +38,8 @@ Method: POST
 }
 ```
 
-Route: api/addPermission
-Method: POST
+Route: api/addPermission. 
+Method: POST. 
 
 4. Permissions can also be removed from roles if there is a need for that using the deletePermission method. See request structure below
 ```
@@ -50,8 +50,8 @@ Method: POST
 }
 ```
 
-Route: api/deletePermission
-Method: DELETE
+Route: api/deletePermission. 
+Method: DELETE. 
 
 5. You might as well want to delete a role, i have made it available through the deleteRolePerm method. See below
 
@@ -61,8 +61,8 @@ Method: DELETE
 }
 ```
 
-Route: api/deleteRolePerm
-Method: DELETE
+Route: api/deleteRolePerm. 
+Method: DELETE. 
 
 6. The method getAllRolesPerm returns all the permissions in a role. See the structure below
 ```
@@ -72,13 +72,13 @@ Method: DELETE
 ```
 
 
-Route: api/getAllRolesPerm
-Method: POST
+Route: api/getAllRolesPerm.    
+Method: POST. 
 
 7. The method getAllRoles will return all the roles available in the system.
 
-Route: api/getAllRoles
-Method: GET
+Route: api/getAllRoles. 
+Method: GET. 
 
 8. To change the role of a user, the method updateUserRole is just for that. See the structure below 
 
@@ -94,8 +94,8 @@ Method: GET
 ```
 
 
-Route: api/updateUserRole
-Method: PUT
+Route: api/updateUserRole. 
+Method: PUT. 
 
 
 9. To change a role name, the method updateRolePerm is for that.
@@ -112,8 +112,8 @@ Method: PUT
 ```
 
 
-Route: api/updateRolePerm
-Method: PUT
+Route: api/updateRolePerm. 
+Method: PUT. 
 
 10. If you are interested in viewing a user's role and permissions using just the user id, the method getUserPermissions is for such.
 
@@ -124,8 +124,8 @@ Method: PUT
 ```
 
 
-Route: api/getUserPermissions
-Method: POST
+Route: api/getUserPermissions. 
+Method: POST. 
 
 11. The method isAllowed is used to check if a user is allowed to access a resource given a permission. It returns boolean.
 ```
@@ -136,8 +136,8 @@ Method: POST
 }
 ```
 
-Route: api/isAllowed
-Method: POST
+Route: api/isAllowed. 
+Method: POST. 
 
 
 12. If you intend to create a role with a permission at the same time instead of creating a role and then add permission to it later, the method createRolePerm can be used.
@@ -149,8 +149,8 @@ Method: POST
 }
 ```
 
-Route: api/createRolePerm
-Method: POST
+Route: api/createRolePerm. 
+Method: POST. 
 
 
 

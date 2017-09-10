@@ -16,8 +16,8 @@ To start this service: NODE_ENV=development node server.js
 }
 ```
 
-Route: api/createRoleUser
-Method: POST
+** Route: api/createRoleUser **
+** Method: POST **
 
 2. Roles are created using the createRole method. Once this is created permissions can be assigned to these roles using another method. See request Structure below:
 

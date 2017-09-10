@@ -17,9 +17,8 @@ const
     nocache = require('nocache'),
     hpp = require('hpp'),
     bParser = require('body-parser'),
-    mongoose = require('mongoose'),
+    mongoose = require('mongoose');
 
-mongoose.Promise = require('bluebird');
 
 //=============================================================================
 /**
@@ -50,6 +49,8 @@ const routes = require('./routes/routes');
  * database config
  */
 //=============================================================================
+mongoose.Promise = require('bluebird');
+
 var options = {
   useMongoClient: true,
   socketTimeoutMS: 0,

@@ -26,8 +26,8 @@ To start this service: NODE_ENV=development node server.js
         "role" : "admin"
 }
 ```
-**Route: api/createRole.** 
-**Method: POST.** 
+**Route: api/createRole**. 
+**Method: POST**. 
 
 3. Once roles are created, permissions can be assigned to these roles using the addPermission method. See request structure below 
 ```

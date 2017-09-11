@@ -15,8 +15,8 @@ const
     deletePermissions = require('../models/rolespermissionsUtils').deletePermissions,
     deleteRolePerm = require('../models/rolespermissionsUtils').deleteRolePerm,
     updateRolePerm = require('../models/rolespermissionsUtils').updateRolePerm,
-    userPermissions = require('../models/relmodelUtils').getUserPermissions,
-    isAllowed = require('../models/relmodelUtils').isAllowed,
+    userPermissions = require('../models/modelsRelationshipUtils').getUserPermissions,
+    isAllowed = require('../models/modelsRelationshipUtils').isAllowed,
 
     getAllRolesPerm = require('../models/rolespermissionsUtils').getAllRolesPerm,
     getAllRoles = require('../models/rolespermissionsUtils').getAllRoles,

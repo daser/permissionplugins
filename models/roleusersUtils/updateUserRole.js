@@ -7,6 +7,7 @@
 const 
             RoleUser = require('../rolesusers'),
             _ = require('lodash'),
+            Promise = require('bluebird'),
             Id = require('../../utils/ValidObjectid'),
             error_codes = require('../../utils/errormessages').error_codes;
 //=============================================================================
